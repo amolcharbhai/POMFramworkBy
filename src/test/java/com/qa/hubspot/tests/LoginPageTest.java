@@ -1,6 +1,7 @@
 package com.qa.hubspot.tests;
 
 import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
@@ -14,6 +15,7 @@ import com.qa.hubspot.pages.HomePage;
 import com.qa.hubspot.pages.LoginPage;
 import com.qa.hubspot.util.Constants;
 import com.qa.hubspot.util.TimeUtil;
+
 import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
@@ -47,6 +49,7 @@ public class LoginPageTest {
 
 	@Test(priority = 2, description = "verify sign up link on Login page.")
 	@Severity(SeverityLevel.MINOR)
+	@Description("check sign up link on Login page")
 	public void verifySignupLinkTest() {
 		Assert.assertTrue(loginPage.isSignUpLinkDisplayed(), "Link is not found");
 	}
