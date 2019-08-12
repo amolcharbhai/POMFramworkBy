@@ -1,89 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="0" passed="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot Test Suite" duration-ms="4939" started-at="2019-08-11T17:13:29Z" finished-at="2019-08-11T17:13:34Z">
+  <suite name="Hub Spot Test Suite" duration-ms="44934" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:29:14Z">
     <groups>
     </groups>
-    <test name="hub spot regression Test" duration-ms="4939" started-at="2019-08-11T17:13:29Z" finished-at="2019-08-11T17:13:34Z">
+    <test name="hub spot regression Test" duration-ms="44934" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:29:14Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="FAIL" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@5f2afe62]" name="setUp" is-config="true" duration-ms="4179" started-at="2019-08-11T17:13:29Z" finished-at="2019-08-11T17:13:33Z">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[session not created: This version of ChromeDriver only supports Chrome version 74
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.68 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AMOL-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 74
-  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 1.68 seconds
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'AMOL-PC', ip: '192.168.1.5', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
-Driver info: driver.version: ChromeDriver
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
-at java.lang.reflect.Constructor.newInstance(Unknown Source)
-at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$errorHandler$0(JsonWireProtocolResponse.java:54)
-at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
-at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
-at java.util.stream.ReferencePipeline$3$1.accept(Unknown Source)
-at java.util.Spliterators$ArraySpliterator.tryAdvance(Unknown Source)
-at java.util.stream.ReferencePipeline.forEachWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyIntoWithCancel(Unknown Source)
-at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
-at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
-at java.util.stream.FindOps$FindOp.evaluateSequential(Unknown Source)
-at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
-at java.util.stream.ReferencePipeline.findFirst(Unknown Source)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:131)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:181)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:168)
-at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
-at com.qa.hubspot.pages.BasePage.init_driver(BasePage.java:35)
-at com.qa.hubspot.tests.LoginPageTest.setUp(LoginPageTest.java:36)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-at java.lang.reflect.Method.invoke(Unknown Source)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
-at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
-at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
-at org.testng.internal.Invoker.invokeMethod(Invoker.java:523)
-at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
-at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
-at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
-at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
-at java.lang.Thread.run(Unknown Source)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="14654" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:28:44Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@5f2afe62]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T17:13:34Z" finished-at="2019-08-11T17:13:34Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="verifyLoginPageTitleTest" duration-ms="480" started-at="2019-08-12T14:28:44Z" description="verifying Login page title." finished-at="2019-08-12T14:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageTitleTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-08-12T14:28:45Z" finished-at="2019-08-12T14:28:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="12591" started-at="2019-08-12T14:28:45Z" finished-at="2019-08-12T14:28:58Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="SKIP" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@5f2afe62]" name="setUp" is-config="true" duration-ms="0" started-at="2019-08-11T17:13:34Z" finished-at="2019-08-11T17:13:34Z">
+        <test-method status="PASS" signature="verifySignupLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="verifySignupLinkTest" duration-ms="493" started-at="2019-08-12T14:28:58Z" description="verify sign up link on Login page." finished-at="2019-08-12T14:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySignupLinkTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-08-12T14:28:59Z" finished-at="2019-08-12T14:28:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="12524" started-at="2019-08-12T14:28:59Z" finished-at="2019-08-12T14:29:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="hubspotLoginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="hubspotLoginTest" duration-ms="1477" started-at="2019-08-12T14:29:12Z" description="verify Login functionality" finished-at="2019-08-12T14:29:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hubspotLoginTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-08-12T14:29:13Z" finished-at="2019-08-12T14:29:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- com.qa.hubspot.tests.LoginPageTest -->
     </test> <!-- hub spot regression Test -->
   </suite> <!-- Hub Spot Test Suite -->
