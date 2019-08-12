@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-Hub_Spot_Test_Suite">
-              <span class="suite-name border-failed">Hub Spot Test Suite</span>
+              <span class="suite-name border-passed">Hub Spot Test Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -49,7 +49,7 @@
               <ul>
                 <li>
                   <a href="#" class="navigator-link " panel-name="test-xml-Hub_Spot_Test_Suite">
-                    <span>E:\SeleniumJava\SeleniumWorkSpace\HubSpotPOMByFramework\src\test\resources\testsuites\testng_sanity.xml</span>
+                    <span>C:\Users\Amol\JavaSeleniumPratice\POMFramworkBy\src\test\resources\testsuites\testng_sanity.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -91,21 +91,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 1 failed,   2 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-Hub_Spot_Test_Suite" class="hide-methods failed suite-Hub_Spot_Test_Suite"> (hide)</a> <!-- hide-methods failed suite-Hub_Spot_Test_Suite -->
-                      <a href="#" panel-name="suite-Hub_Spot_Test_Suite" class="show-methods failed suite-Hub_Spot_Test_Suite"> (show)</a> <!-- show-methods failed suite-Hub_Spot_Test_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-Hub_Spot_Test_Suite">
-                      <span>
-                        <img width="3%" src="failed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-Hub_Spot_Test_Suite" title="com.qa.hubspot.tests.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-Hub_Spot_Test_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -117,6 +103,11 @@
                       <span>
                         <img width="3%" src="passed.png"/>
                         <a href="#" class="method navigator-link" panel-name="suite-Hub_Spot_Test_Suite" title="com.qa.hubspot.tests.LoginPageTest" hash-for-method="hubspotLoginTest">hubspotLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Hub_Spot_Test_Suite" title="com.qa.hubspot.tests.LoginPageTest" hash-for-method="verifyLoginPageTitleTest">verifyLoginPageTitleTest</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -136,30 +127,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Hub_Spot_Test_Suite" class="panel Hub_Spot_Test_Suite">
-          <div class="suite-Hub_Spot_Test_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">com.qa.hubspot.tests.LoginPageTest</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="verifyLoginPageTitleTest">
-                  </a> <!-- verifyLoginPageTitleTest -->
-                  <span class="method-name">verifyLoginPageTitleTest</span>
-                  <div class="stack-trace">java.lang.AssertionError: expected [HubSpot Login123] but found [HubSpot Login]
-	at com.qa.hubspot.tests.LoginPageTest.verifyLoginPageTitleTest(LoginPageTest.java:45)
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
-	at java.lang.Thread.run(Thread.java:748)
-... Removed 16 stack frames
-</div> <!-- stack-trace -->
-                  <em>
-(verifying Login page title.)                  </em>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Hub_Spot_Test_Suite-class-failed -->
           <div class="suite-Hub_Spot_Test_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -177,6 +144,15 @@
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
+                  <a name="verifyLoginPageTitleTest">
+                  </a> <!-- verifyLoginPageTitleTest -->
+                  <span class="method-name">verifyLoginPageTitleTest</span>
+                  <em>
+(verifying Login page title.)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
                   <a name="verifySignupLinkTest">
                   </a> <!-- verifySignupLinkTest -->
                   <span class="method-name">verifySignupLinkTest</span>
@@ -189,7 +165,7 @@
         </div> <!-- panel Hub_Spot_Test_Suite -->
         <div panel-name="test-xml-Hub_Spot_Test_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">E:\SeleniumJava\SeleniumWorkSpace\HubSpotPOMByFramework\src\test\resources\testsuites\testng_sanity.xml</span>
+            <span class="header-content">C:\Users\Amol\JavaSeleniumPratice\POMFramworkBy\src\test\resources\testsuites\testng_sanity.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -245,15 +221,15 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'hubspotLoginTest')
 data.setCell(0, 2, 'com.qa.hubspot.tests.LoginPageTest')
-data.setCell(0, 3, 1374);
+data.setCell(0, 3, 1395);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'verifyLoginPageTitleTest')
+data.setCell(1, 1, 'verifySignupLinkTest')
 data.setCell(1, 2, 'com.qa.hubspot.tests.LoginPageTest')
-data.setCell(1, 3, 1272);
+data.setCell(1, 3, 450);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'verifySignupLinkTest')
+data.setCell(2, 1, 'verifyLoginPageTitleTest')
 data.setCell(2, 2, 'com.qa.hubspot.tests.LoginPageTest')
-data.setCell(2, 3, 300);
+data.setCell(2, 3, 301);
 window.suiteTableData['Hub_Spot_Test_Suite']= { tableData: data, tableDiv: 'times-div-Hub_Spot_Test_Suite'}
 return data;
 }
@@ -290,38 +266,36 @@ return data;
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
                 <span class="method-name">verifyLoginPageTitleTest</span>
-                <span class="method-start">21523 ms</span>
+                <span class="method-start">15694 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">24504 ms</span>
+                <span class="method-start">16113 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">25509 ms</span>
+                <span class="method-start">16961 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">verifySignupLinkTest</span>
-                <span class="method-start">40900 ms</span>
+                <span class="method-start">29250 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">41217 ms</span>
+                <span class="method-start">29716 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">42016 ms</span>
+                <span class="method-start">30433 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">hubspotLoginTest</span>
-                <span class="method-start">56402 ms</span>
+                <span class="method-start">42835 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">57789 ms</span>
+                <span class="method-start">44239 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

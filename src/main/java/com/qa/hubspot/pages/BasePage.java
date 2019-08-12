@@ -30,11 +30,11 @@ public class BasePage {
 		String browser = prop.getProperty("browser");
 
 		if (browser.equals("chrome")) {
-			System.setProperty("webdriver.chrome.driver", "E:\\SeleniumJava\\Jars\\chromedriver.exe");
+			System.setProperty("webdriver.chrome.driver", "D:\\SeleniumJava\\Jars\\chromedriver.exe");
 			// driver = new ChromeDriver();
 			tldriver.set(new ChromeDriver());
 		} else if (browser.equals("FF")) {
-			System.setProperty("webdriver.gecko.driver", "E:\\SeleniumJava\\Jars\\geckodriver.exe");
+			System.setProperty("webdriver.gecko.driver", "D:\\SeleniumJava\\Jars\\geckodriver.exe");
 			// driver = new FirefoxDriver();
 			tldriver.set(new FirefoxDriver());
 		} else {
@@ -63,7 +63,7 @@ public class BasePage {
 		prop = new Properties();
 		try {
 			FileInputStream ip = new FileInputStream(
-					"E:\\SeleniumJava\\SeleniumWorkSpace\\HupSpotPOMFramework\\src\\main\\java\\com\\qa\\hubspot\\config\\config.properties");
+					System.getProperty("user.dir") + "\\src\\main\\java\\com\\qa\\hubspot\\config\\config.properties");
 			prop.load(ip);
 		} catch (FileNotFoundException e) {
 			System.out.println("Properties file is not defined.");

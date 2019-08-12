@@ -11,8 +11,8 @@ import org.apache.poi.ss.usermodel.WorkbookFactory;
 
 public class ExcelUtil {
 
-	public static String TESTDATA_SHEET_PATH = "E:\\SeleniumJava\\SeleniumWorkSpace\\"
-			+ "HupSpotPOMFramework\\src\\main\\java\\com\\qa\\hubspot\\testdata\\HubSpot_TestData.xlsx";
+	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")
+			+ "\\src\\main\\java\\com\\qa\\hubspot\\testdata\\HubSpot_TestData.xlsx";
 	public static Workbook book;
 	public static Sheet sheet;
 
