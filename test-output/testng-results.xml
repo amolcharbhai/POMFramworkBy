@@ -2,44 +2,44 @@
 <testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Hub Spot Test Suite" duration-ms="44934" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:29:14Z">
+  <suite name="Hub Spot Test Suite" duration-ms="54418" started-at="2019-08-26T07:05:10Z" finished-at="2019-08-26T07:06:04Z">
     <groups>
     </groups>
-    <test name="hub spot regression Test" duration-ms="44934" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:29:14Z">
+    <test name="hub spot regression Test" duration-ms="54418" started-at="2019-08-26T07:05:10Z" finished-at="2019-08-26T07:06:04Z">
       <class name="com.qa.hubspot.tests.LoginPageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="14654" started-at="2019-08-12T14:28:29Z" finished-at="2019-08-12T14:28:44Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="setUp" is-config="true" duration-ms="15336" started-at="2019-08-26T07:05:10Z" finished-at="2019-08-26T07:05:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="verifyLoginPageTitleTest" duration-ms="480" started-at="2019-08-12T14:28:44Z" description="verifying Login page title." finished-at="2019-08-12T14:28:45Z">
+        <test-method status="PASS" signature="verifyLoginPageTitleTest()[pri:1, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="verifyLoginPageTitleTest" duration-ms="2623" started-at="2019-08-26T07:05:26Z" description="verifying Login page title." finished-at="2019-08-26T07:05:28Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitleTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-08-12T14:28:45Z" finished-at="2019-08-12T14:28:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="tearDown" is-config="true" duration-ms="805" started-at="2019-08-26T07:05:28Z" finished-at="2019-08-26T07:05:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="12591" started-at="2019-08-12T14:28:45Z" finished-at="2019-08-12T14:28:58Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="setUp" is-config="true" duration-ms="12784" started-at="2019-08-26T07:05:29Z" finished-at="2019-08-26T07:05:42Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySignupLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="verifySignupLinkTest" duration-ms="493" started-at="2019-08-12T14:28:58Z" description="verify sign up link on Login page." finished-at="2019-08-12T14:28:59Z">
+        <test-method status="PASS" signature="verifySignupLinkTest()[pri:2, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="verifySignupLinkTest" duration-ms="4253" started-at="2019-08-26T07:05:42Z" description="verify sign up link on Login page." finished-at="2019-08-26T07:05:46Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifySignupLinkTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="747" started-at="2019-08-12T14:28:59Z" finished-at="2019-08-12T14:28:59Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="tearDown" is-config="true" duration-ms="811" started-at="2019-08-26T07:05:46Z" finished-at="2019-08-26T07:05:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="setUp" is-config="true" duration-ms="12524" started-at="2019-08-12T14:28:59Z" finished-at="2019-08-12T14:29:12Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="setUp" is-config="true" duration-ms="12781" started-at="2019-08-26T07:05:47Z" finished-at="2019-08-26T07:06:00Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="hubspotLoginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="hubspotLoginTest" duration-ms="1477" started-at="2019-08-12T14:29:12Z" description="verify Login functionality" finished-at="2019-08-12T14:29:13Z">
+        <test-method status="PASS" signature="hubspotLoginTest()[pri:3, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="hubspotLoginTest" duration-ms="3396" started-at="2019-08-26T07:06:00Z" description="verify Login functionality" finished-at="2019-08-26T07:06:03Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hubspotLoginTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@3935e9a8]" name="tearDown" is-config="true" duration-ms="756" started-at="2019-08-12T14:29:13Z" finished-at="2019-08-12T14:29:14Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.qa.hubspot.tests.LoginPageTest@73386d72]" name="tearDown" is-config="true" duration-ms="858" started-at="2019-08-26T07:06:03Z" finished-at="2019-08-26T07:06:04Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
