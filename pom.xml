@@ -37,7 +37,7 @@
 				<configuration>
 
 					<suiteXmlFiles>
-						<suiteXmlFile>src/test/resources/testsuites/testng_sanity.xml</suiteXmlFile>
+						<suiteXmlFile>src/test/resources/testsuites/testng.xml</suiteXmlFile>
 					</suiteXmlFiles>
 					<argLine>
 						-javaagent:"${settings.localRepository}/org/aspectj/aspectjweaver/${aspectj.version}/aspectjweaver-${aspectj.version}.jar"

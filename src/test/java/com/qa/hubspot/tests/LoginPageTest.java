@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.qa.hubspot.listeners.ExtentReportListener;
 import com.qa.hubspot.listeners.TestAllureListener;
 import com.qa.hubspot.pages.BasePage;
 import com.qa.hubspot.pages.HomePage;
@@ -20,7 +21,8 @@ import io.qameta.allure.Description;
 import io.qameta.allure.Severity;
 import io.qameta.allure.SeverityLevel;
 
-@Listeners({ TestAllureListener.class })
+//@Listeners({ TestAllureListener.class })
+@Listeners(ExtentReportListener.class)
 public class LoginPageTest {
 
 	WebDriver driver;

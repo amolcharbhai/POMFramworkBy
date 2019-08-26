@@ -7,8 +7,10 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+import com.qa.hubspot.listeners.ExtentReportListener;
 import com.qa.hubspot.pages.BasePage;
 import com.qa.hubspot.pages.ContactsPage;
 import com.qa.hubspot.pages.HomePage;
@@ -17,6 +19,7 @@ import com.qa.hubspot.util.Constants;
 import com.qa.hubspot.util.ExcelUtil;
 import com.qa.hubspot.util.TimeUtil;
 
+@Listeners(ExtentReportListener.class)
 public class ContactsPageTest {
 
 	WebDriver driver;
